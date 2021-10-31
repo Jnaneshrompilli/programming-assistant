@@ -11,8 +11,8 @@ function App() {
       <div>
         <Navbar />
         <div className="container">
-          <Route path="/home" component={Home} />
-          <Route path="/about" component={About} />
+          <Route path="/programming-assistant/home" component={Home} />
+          <Route path="/programming-assistant/about" component={About} />
         </div>
         <Footer />
       </div>
