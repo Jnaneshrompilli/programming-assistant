@@ -1,8 +1,9 @@
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
-import About from './components/About/About';
-import Home from './components/Home/Home';
+import About from './pages/About/About';
+import Home from './pages/Home/Home';
 import Footer from './components/Footer/Footer'
+import {SidebarLeft, SidebarRight} from './components/SideBar/Sidebar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
@@ -11,8 +12,10 @@ function App() {
       <div>
         <Navbar />
         <div className="container">
-          <Route path="/programming-assistant/home" component={Home} />
-          <Route path="/programming-assistant/about" component={About} />
+          <SidebarLeft />
+          <Route path="/home" component={Home} />
+          <Route path="/about" component={About} />
+          <SidebarRight />
         </div>
         <Footer />
       </div>

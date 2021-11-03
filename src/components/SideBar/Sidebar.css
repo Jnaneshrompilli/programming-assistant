@@ -1,0 +1,26 @@
+.side-bar-right {
+  width: 30%;
+  text-align: center;
+  height: 500px;
+
+}
+
+.side-bar-left {
+  width: 15%;
+  text-align: center;
+  height: 500px;
+}
+
+div {
+  height: inherit;
+}
+
+
+@media screen and (max-width: 900px) {
+  .side-bar-left {
+    width: 0%;
+  }
+  .side-bar-right {
+    width: 0%;
+  }
+}

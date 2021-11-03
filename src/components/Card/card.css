@@ -1,0 +1,33 @@
+.card {
+  border: 2px rgb(126, 126, 126) solid;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 5px;
+  width: 150px;
+  height: 150px;
+  background-color: rgb(242, 253, 255, 0.4);
+  cursor: pointer;
+  margin: 20px;
+  text-align: center;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-container {
+  display: flex;
+  font-size: 8px;
+  border-top: 1px rgb(146, 146, 146) solid;
+  height: fit-content;
+}
+
+.card-container h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+ 
+  padding-top: 3px;
+}
+
+img {
+  height: 100px;
+}
