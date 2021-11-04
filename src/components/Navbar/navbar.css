@@ -21,6 +21,10 @@
   float: right;
 }
 
+.search-bar:focus {
+  border-radius: 35px;
+}
+
 .navbar [type="text"] {
   font-size: 15px;
   margin: 14px;
@@ -59,8 +63,8 @@
 
 @media screen and (max-width: 900px) {
   .navbar {
-    width: 90%;
-    margin-right: 5%;
-    margin-left: 5%;
+    width: 100%;
+    margin-right: 0%;
+    margin-left: 0%;
   }
 }
